@@ -14,7 +14,7 @@ jobs:
 
       - name: Download README from public repo
         run: |
-          curl -o README.md https://raw.githubusercontent.com/JustindotDev/portfolio/main/README.md
+          curl -o README.md https://raw.githubusercontent.com/JustindotDev/Portfolio/main/README.md
 
       - name: Commit and push changes
         run: |
