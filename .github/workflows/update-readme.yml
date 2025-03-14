@@ -22,4 +22,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add README.md
           git commit -m "Update profile README" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/JustindotDev/JustindotDev.git main --force
+
